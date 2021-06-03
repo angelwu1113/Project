@@ -9,6 +9,7 @@ TagManager:
   - DoorButton
   - Check
   - Check2
+  - DIM
   layers:
   - Default
   - TransparentFX
