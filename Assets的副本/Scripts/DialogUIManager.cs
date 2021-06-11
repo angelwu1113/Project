@@ -51,7 +51,7 @@ public class DialogUIManager : MonoBehaviour
     public void NextBranch(int branchSelect)
     {
         // Add ReciveDialogueBranch with newBranch being next branch
-        ReciveDialogueBranch(branch.ResponseOption[branchSelect].nextBranch);
+        RecieveDialogueBranch(branch.ResponseOption[branchSelect].nextBranch);
         ActiveDialogue();
         NextDialogue();
     }

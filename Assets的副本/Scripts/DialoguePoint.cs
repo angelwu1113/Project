@@ -46,7 +46,7 @@ public class DialoguePoint : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter(Collider collision)
     {
         dialogueMenu.RecieveDialogueBranch(startBranch); // Add start branch here
         popup.gameObject.SetActive(true);
@@ -54,7 +54,7 @@ public class DialoguePoint : MonoBehaviour
         inDialogueZone = true;
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit(Collider collision)
     {
         inDialogueZone = false;
         popup.gameObject.SetActive(false);

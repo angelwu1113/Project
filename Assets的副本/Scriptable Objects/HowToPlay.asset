@@ -10,15 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a06bc835ea7e4288a9c988b5709fda9, type: 3}
-  m_Name: Test
+  m_Name: HowToPlay
   m_EditorClassIdentifier: 
-  dialogueID: Start
+  dialogueID: 
   DialogueLines:
-  - This is a test
-  - test
-  - Is it working
-  ResponseOption:
-  - text: Yes
-    nextBranch: {fileID: 11400000, guid: 26216e60d9fc94714be732578f5aa3ca, type: 2}
-  - text: No
-    nextBranch: {fileID: 11400000, guid: d3d831f7ee4424bbd97bb796b33da828, type: 2}
+  - Follow the instruction!
+  ResponseOption: []
