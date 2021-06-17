@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a06bc835ea7e4288a9c988b5709fda9, type: 3}
-  m_Name: HowToPlay
+  m_Name: HowManyLevels
   m_EditorClassIdentifier: 
   dialogueID: 
   DialogueLines:
-  - When you start the game, you'll see the instruction.
+  - 'There are four levels. '
   ResponseOption: []

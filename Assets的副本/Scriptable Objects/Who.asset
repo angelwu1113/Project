@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueID: 
   DialogueLines:
-  - I'm a dog.
+  - I'm NPC. If you have any quesrtions, just ask me!
   ResponseOption: []
