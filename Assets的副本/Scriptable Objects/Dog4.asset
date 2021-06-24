@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a06bc835ea7e4288a9c988b5709fda9, type: 3}
-  m_Name: Dog2
+  m_Name: Dog4
   m_EditorClassIdentifier: 
   dialogueID: 
   DialogueLines:
-  - Great! Now you know how to play the game. Isn't it easy?
+  - Questions?
   ResponseOption:
-  - text: How to play next?
-    nextBranch: {fileID: 11400000, guid: 4e7db05d8221548f98cc5633097c28f1, type: 2}
-  - text: How many levels are there?
-    nextBranch: {fileID: 11400000, guid: b48c0f2b3d0b44950a78554945cc41ec, type: 2}
-  - text: Goodbye.
+  - text: How to play?
+    nextBranch: {fileID: 0}
+  - text: What are those words?
+    nextBranch: {fileID: 0}
+  - text: Goodbye!
     nextBranch: {fileID: 11400000, guid: 9225df29cf43140fabdcc9b4730e69d7, type: 2}

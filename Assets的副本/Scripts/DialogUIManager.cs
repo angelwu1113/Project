@@ -50,6 +50,7 @@ public class DialogUIManager : MonoBehaviour
 
     public void NextBranch(int branchSelect)
     {
+        print("Button has been CLICKED!");
         // Add ReciveDialogueBranch with newBranch being next branch
         RecieveDialogueBranch(branch.ResponseOption[branchSelect].nextBranch);
         ActiveDialogue();

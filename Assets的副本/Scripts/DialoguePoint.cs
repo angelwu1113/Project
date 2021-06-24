@@ -49,10 +49,14 @@ public class DialoguePoint : MonoBehaviour
     private void OnTriggerEnter(Collider collision)
     {
         //add an if statement to check if colliding with player 
-        dialogueMenu.RecieveDialogueBranch(startBranch); // Add start branch here
-        popup.gameObject.SetActive(true);
-        popup.text = "Press [E] to " + info;
-        inDialogueZone = true;
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            dialogueMenu.RecieveDialogueBranch(startBranch); // Add start branch here
+            popup.gameObject.SetActive(true);
+            popup.text = "Press [E] to " + info;
+            inDialogueZone = true;
+        }
+        
     }
 
     private void OnTriggerExit(Collider collision)
