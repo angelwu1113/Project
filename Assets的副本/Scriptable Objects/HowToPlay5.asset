@@ -10,15 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a06bc835ea7e4288a9c988b5709fda9, type: 3}
-  m_Name: Dog4
+  m_Name: HowToPlay5
   m_EditorClassIdentifier: 
   dialogueID: 
   DialogueLines:
-  - Questions?
-  ResponseOption:
-  - text: How to play?
-    nextBranch: {fileID: 11400000, guid: 717b1a6d27893449486c0dd1da3940f8, type: 2}
-  - text: What are those words?
-    nextBranch: {fileID: 11400000, guid: 73f243a99302a4feb8ec04be1b77f85e, type: 2}
-  - text: Goodbye!
-    nextBranch: {fileID: 11400000, guid: 9225df29cf43140fabdcc9b4730e69d7, type: 2}
+  - Try to find the right path.
+  ResponseOption: []
