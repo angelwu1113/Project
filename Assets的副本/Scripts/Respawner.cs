@@ -5,10 +5,13 @@ using UnityEngine;
 public class Respawner : MonoBehaviour
 {   public List<Transform> respawnPoint;
     public int current;
-    void OnTriggerEnter(Collider Other)
+    void OnTriggerEnter(Collider other)
     {
-        Debug.Log("this is working");
-        Other.transform.position = respawnPoint[current].position;
+        if(other.tag == "Player"){
+            Debug.Log("this is working");
+            other.transform.position = respawnPoint[current].position;
+        }
+        
         
     }
 }
